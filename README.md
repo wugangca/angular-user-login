@@ -1,6 +1,9 @@
 # angular-user-login
 Angular User Registration, Login, and Password Management.
 
+This is client side code. Server side code is at https://github.com/wugangca/spring-user-rest-service
+
+
 ## Installation
 
 Run `npm install` to install dependencies.
