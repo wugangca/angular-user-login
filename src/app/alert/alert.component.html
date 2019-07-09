@@ -1,0 +1,6 @@
+<div *ngIf="message"
+    [ngClass]="{ 'alert': message, 'alert-success': message.type === 'success', 'alert-danger': message.type === 'error' }">
+    <span class="close" (click)="removeAlert()">&times;</span> 
+    {{message.text}}
+    
+</div>
